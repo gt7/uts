@@ -56,7 +56,13 @@ public class App12141417 {
         System.out.println(" kali tebakan. skor anda adalah " + skor);
         
         if(betul >= 1){
+            String lanjut = kbd.nextLine();
+            System.out.print("\nKetik \"next\" dan tekan enter untuk lanjut ke level berikutnya atau \"exit\" untuk keluar : ");
+            String nek = kbd.nextLine();
             
+            if(nek.equalsIgnoreCase("exit") || nek.isEmpty()){
+                System.exit(0);
+            }
         }
     }
     
