@@ -63,7 +63,13 @@ public class App12141417 {
             if(nek.equalsIgnoreCase("exit") || nek.isEmpty()){
                 System.exit(0);
             } if(nek.equalsIgnoreCase("next")){
+                skor = 0;
+                total = 0;
+                betul = 0;
                 
+                System.out.println("\n# Level 2");
+                System.out.println("Silahkan tebak angka antara 1 s/d 20");
+                System.out.println("Anda mempunyai kesempatan menebak 5 kali");
             }
         }
     }
