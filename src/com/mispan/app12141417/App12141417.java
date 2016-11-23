@@ -70,6 +70,10 @@ public class App12141417 {
                 System.out.println("\n# Level 2");
                 System.out.println("Silahkan tebak angka antara 1 s/d 20");
                 System.out.println("Anda mempunyai kesempatan menebak 5 kali");
+                
+                for(int i=5; i>=1; i--){
+                    
+                }
             }
         }
     }
