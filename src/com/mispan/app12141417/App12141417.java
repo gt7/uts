@@ -12,6 +12,12 @@ public class App12141417 {
         Scanner kbd = new Scanner(System.in);
         System.out.print("Masukan nama Anda untuk memulai atau tekan y untuk keluar : ");
         String nama = kbd.nextLine();
+        
+        if(nama.equalsIgnoreCase("y") || nama.isEmpty()){
+            System.exit(0);
+        }else{
+            
+        }
     }
     
 }
