@@ -51,6 +51,13 @@ public class App12141417 {
                 }
             }
         }
+        
+        System.out.print("Selamat anda berhasil menebak angka sebanyak  " + betul);
+        System.out.println(" kali tebakan. skor anda adalah " + skor);
+        
+        if(betul >= 1){
+            
+        }
     }
     
 }
