@@ -89,6 +89,16 @@ public class App12141417 {
                     } else if(tebakan == angka){
                         betul = betul + 1;
                     }
+                    
+                    if(betul == 5){
+                        skor = 100 * 2;
+                    } else if(betul == 4){
+                        skor = 70 * 2;
+                    } else if(betul == 3){
+                        skor = 50 * 2;
+                    } else if(betul == 2){
+                        skor = 30 * 2;
+                    }
                 }
             }
         }
