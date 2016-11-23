@@ -62,6 +62,8 @@ public class App12141417 {
             
             if(nek.equalsIgnoreCase("exit") || nek.isEmpty()){
                 System.exit(0);
+            } if(nek.equalsIgnoreCase("next")){
+                
             }
         }
     }
