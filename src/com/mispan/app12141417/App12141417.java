@@ -36,6 +36,8 @@ public class App12141417 {
                 } else if(tebakan < angka){
                     System.out.print("Tebakan Anda terlalu kecil ! anda mempunyai kesempatan " + bb);
                     System.out.println(" kali lagi");
+                } else if(tebakan == angka){
+                    betul = betul + 1;
                 }
             }
         }
