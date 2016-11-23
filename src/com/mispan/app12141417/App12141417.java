@@ -16,6 +16,11 @@ public class App12141417 {
         if(nama.equalsIgnoreCase("y") || nama.isEmpty()){
             System.exit(0);
         }else{
+            System.out.println("# Level 1");
+            System.out.println("Selamat Datang " + nama);
+            System.out.println("Silahkan tebak angka antara 1 s/d 10");
+            System.out.println("Anda mempunyai kesempatan menebak 5 kali \n");
+            
             
         }
     }
