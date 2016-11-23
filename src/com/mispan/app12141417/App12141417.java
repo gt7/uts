@@ -72,7 +72,13 @@ public class App12141417 {
                 System.out.println("Anda mempunyai kesempatan menebak 5 kali");
                 
                 for(int i=5; i>=1; i--){
+                    int bb = i - 1;
+                    Random tian = new Random();
+                    int angka = tian.nextInt(200);
                     
+                    System.out.println("Anda RANDOM : " + angka );
+                    System.out.print("Tebakan Anda ? ");
+                    int tebakan = kbd.nextInt();
                 }
             }
         }
