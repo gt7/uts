@@ -30,6 +30,13 @@ public class App12141417 {
                 System.out.print("Tebakan Anda ? ");
                 int tebakan = kbd.nextInt();
                 
+                if(tebakan > angka){
+                    System.out.print("Tebakan Anda terlalu besar ! anda mempunyai kesempatan " + bb);
+                    System.out.println(" kali lagi");
+                } else if(tebakan < angka){
+                    System.out.print("Tebakan Anda terlalu kecil ! anda mempunyai kesempatan " + bb);
+                    System.out.println(" kali lagi");
+                }
             }
         }
     }
