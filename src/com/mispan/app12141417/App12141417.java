@@ -44,6 +44,10 @@ public class App12141417 {
                     skor = 100 * 1;
                 } else if(betul == 4){
                     skor = 70 * 1;
+                } else if(betul == 3){
+                    skor = 50 * 1;
+                } else if(betul == 2){
+                    skor = 30 * 1;
                 }
             }
         }
