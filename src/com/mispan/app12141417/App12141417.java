@@ -99,9 +99,13 @@ public class App12141417 {
                     } else if(betul == 2){
                         skor = 30 * 2;
                     }
+                    
                 }
             }
         }
+        
+        System.out.print("Selamat anda berhasil menebak angka sebanyak  " + betul);
+        System.out.println(" kali tebakan. skor anda adalah " + skor); 
     }
     
 }
